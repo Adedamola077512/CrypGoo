@@ -30,12 +30,10 @@
     background-color: #99e39e;
     color: black;
     border: none;
-    /* border: 2px solid gray; */
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 1.2rem;
     font-weight: 500;
-    /* font-weight: bold; */
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -65,8 +63,6 @@
     .platform-p-content {
         margin-top: 20px;
         font-size: 13.5px;
-        /* font-size: 0.9rem; */
         text-align: center;
-        /* margin: 0; */
     }
 }

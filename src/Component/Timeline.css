@@ -64,10 +64,8 @@
         flex-direction: row-reverse;
     }
     .timeline-p {
-        /* margin: 0; */
         padding: 0;
         line-height: 1.5;
         color: white;
-        /* font-size: 14px;     */
     }
 }
