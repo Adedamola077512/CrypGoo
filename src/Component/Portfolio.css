@@ -1,0 +1,82 @@
+.portfolio {
+    background-color: #060c17;
+    /* height: 400px; */
+}
+.portfolio-container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 100px;
+    align-items: center;
+}
+.portfolio-img {
+    width: 600px;
+    /* height: 100%; */
+    /* object-fit: cover; */
+}
+.portfolio-p {
+    font-size: 1.7rem;
+    /* font-weight: 500; */
+}
+.portfolio-span {
+    color: aqua;
+}
+.Coinbase-p {
+    font-size: 1.5rem;
+    color: gray;
+}
+.portfolio-flex {
+    display: flex; 
+    align-items: center;
+    color: gray;
+    gap: 30px;
+}
+.portfolio-round {
+    background-color: #223531;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+hr {
+    width: 380px;
+    height: 1px;
+    background-color: gray;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: auto;
+    }
+    .portfolio-img {
+        width: 100%;
+        max-width: 600px;
+    }
+    .portfolio-h1 {
+        font-size: 1.5rem;
+        /* text-align: center; */
+        margin: 0;
+        line-height: normal;
+    }
+    .Coinbase-p {
+        font-size: 0.8rem;
+        color: gray;
+    }
+    .portfolio-p {
+        font-size: 1.5rem;
+    }
+    .portfolio-flex {
+        gap: 10px;
+    }
+    hr {
+        width: 90%;
+    }
+    
+}

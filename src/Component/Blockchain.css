@@ -1,0 +1,66 @@
+.blockchain {
+    background-color: #060c17;
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    padding: 20px;
+}
+.blockchain-content-flex {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.blockchain-content-flexs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.blockchain-around {
+    background-color: #181b23;
+    padding: 20px;
+    border-radius: 50px;
+}
+.blockchain-flex {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.blockchain-h5 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.blockchain-h5 span {
+    color: #93da98;
+}
+.blockchain-h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.blockchain-img {
+    width: 500px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .blockchain-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blockchain-h2 {
+        font-size: 1.6rem;
+    }
+    .blockchain-content-flexs {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    .blockchain-img {
+        width: 100%;
+        height: auto;
+    }
+}

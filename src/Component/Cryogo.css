@@ -1,0 +1,92 @@
+.cryogo {
+    background-color: #060c17;
+    /* height: 600px; */
+    color: #ffffff;
+}
+.cryogo-h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.cryogo-span {
+    color: aqua;
+    font-weight: 400;
+}
+.cryogo-hr {
+    width: 40px;
+    height: 3px;
+    background-color: #94db9b;
+    margin: auto ;
+    display: block;
+    /* margin-bottom: 20px; */
+    margin-top: 30px;
+}
+.cryogo-div {
+    background-color: #1b232b;
+    height: 350px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.cryogo-flex {
+    display: flex;
+    justify-content: space-around;
+    justify-content: baseline;
+    text-align: center;
+    margin-top: 20px;
+}
+.cryogo-round {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #354e46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.cryogo-flex-h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    /* color: gray; */
+    margin-top: 30px;
+}
+.cryogo-flex-p {
+    /* font-size: 1.1rem; */
+    font-weight: 400;
+    color: gray;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .cryogo {
+        padding: 20px;
+    }
+    .cryogo-text {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    .cryogo-h4 {
+        font-size: 1.2rem;
+    }
+    .cryogo-span {
+        font-size: 1rem;
+    }
+    .cryogo-hr {
+        width: 30px;
+        height: 2px;
+    }
+    .cryogo-div {
+        height: auto;
+    }
+    .cryogo-flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cryogo-flex-h4 {
+        font-size: 1.5rem;
+    }
+    .cryogo-flex-p {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,144 @@
+
+.scalloped {
+  /* background: linear-gradient(135deg, #192b22, #000510); */
+    background-color: #000510;
+    /* height: 70px; */
+  }
+  .logo {
+    height: 50px;
+    /* width: 100px; */
+  }
+  .home {
+      text-decoration: none;
+      color: gray;
+      font-size: 16px;
+      padding: 8px 0;
+      font-weight: 500;
+  }
+  .home:hover {
+    color: #99e39e;
+    text-decoration: none;
+  }
+  .navbar-nav {
+    gap: 40px;
+    text-decoration: none;
+  }
+  .signup {
+    border: 1px solid #99e39e;
+    border-radius: 5px;
+    color: #99e39e;
+    width: 80px;
+    background-color: transparent;
+    padding: 8px 0;
+    font-weight: 500;
+  }
+  .signup:hover {
+    background-color: #99e39e;
+    color: #000510;
+  }
+  .textlink {
+    color: #99e39e;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 0;
+    /* font-weight: 500; */
+  }
+  .textlink:hover {
+    color: black;
+    text-decoration: none;
+  }
+  #btn {
+    background-color: #99e39e;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    color: #000510;
+    padding: 8px 0;
+    font-weight: 500;
+  }
+  #signup2 {
+    background-color: #99e39e;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    color: #000510;
+    padding: 8px 0;
+    font-weight: 500;
+  }
+  #btn:hover {
+    border: 1px solid #99e39e;
+    border-radius: 5px;
+    color: #99e39e;
+    width: 80px;
+    background-color: transparent;
+    padding: 8px 0;
+    font-weight: 500;
+  }
+  .text {
+    color: #000510DB;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 0;
+    /* font-weight: 500; */
+  }
+  .text:hover {
+    color: #99e39e;
+    text-decoration: none;
+  }
+    
+    /* Responsive .Nav-btn for screens smaller than 600px */
+    @media (max-width: 600px) {
+     .contact-btn {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+      }
+    }
+    
+  @media screen and (max-width: 600px) {
+      /* For screens smaller than 600px */
+
+      .navbar-nav{
+          gap: 0px;
+          margin-top: 10px;
+      }
+      .scalloped {
+          height: 100%;
+          /* background-color: black; */
+          /* margin-bottom: 50px; */
+      }
+      .Nav-btn {
+          width: 100%;
+          margin-top: 10px;
+          text-align: center;
+      }
+      .btn-grid {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-top: 10px;
+      }
+      .signup {
+          width: 100%;
+          margin-top: 10px;
+      }
+      .toggle {
+        border: 2px solid #99e39e;
+      }
+      #btn {
+          width: 100%;
+          margin-top: 10px;
+          color: #000510;
+      }
+      #signup2 {
+        width: 100%;
+        margin-top: 10px;
+      }
+      #signup2 :hover {
+        width: 100%;
+        color: black;
+      }
+  }
+  
+  

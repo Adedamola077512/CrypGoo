@@ -1,0 +1,76 @@
+.upgrade-container {
+    margin-top: 100px;
+}
+.upgrade-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.upgrade-img {
+    width: 550px;
+    height: 500px;
+}
+.upgrade-h3 {
+    font-size: 30px;
+    color:aqua;
+    margin-bottom: 20px;
+}
+.upgrade-h1 {
+    font-size: 43px;
+    color: white;
+    margin-bottom: 20px;
+}
+.upgrade-p {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.upgrade-checks {
+    display: flex;
+    gap: 70px;
+}
+.upgrade-checks2 {
+    display: flex;
+    gap: 70px;
+    margin-top: 30px;
+}
+.upgrade-checks-span {
+    font-size: 17px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .upgrade-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .upgrade-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .upgrade-img {
+        width: 100%;
+        height: auto;
+    }
+    .upgrade-h1 {
+        font-size: 1.5rem;
+    }
+    .upgrade-h3 {
+        font-size: 1.2rem;
+    }
+    .upgrade-p {
+        font-size: 1rem;
+    }
+    .upgrade-checks {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .upgrade-checks2 {
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

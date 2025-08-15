@@ -1,0 +1,72 @@
+.platform {
+    margin-top: 300px !important;
+}
+.platform-flex {
+    background-color: #1b232b;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 30px;
+}
+.platform-p {
+    color: #f0f0f0;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+.span-go {
+    color: aqua;
+}
+.platform-p-content {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0;
+    color: gray;
+}
+.platform-btn {
+    background-color: #99e39e;
+    color: black;
+    border: none;
+    /* border: 2px solid gray; */
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.platform-btn:hover {
+    background-color: #7ec77e;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .platform {
+        height: auto;
+        margin-top: 20px !important;
+    }
+    .platform-flex {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        gap: 20px;
+    }
+    .platform-p {
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+        line-height: 1.2;
+    }
+    .platform-p-content {
+        margin-top: 20px;
+        font-size: 13.5px;
+        /* font-size: 0.9rem; */
+        text-align: center;
+        /* margin: 0; */
+    }
+}
