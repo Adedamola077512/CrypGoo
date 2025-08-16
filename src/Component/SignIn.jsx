@@ -27,7 +27,7 @@ const SignIn = () => {
 
           <div className="signin-link">
               <Link
-                to="/Portfoilo"
+                to="/SignUp"
                 className="text"
               >
                 Sign Up

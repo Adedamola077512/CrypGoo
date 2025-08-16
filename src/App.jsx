@@ -2,8 +2,8 @@ import { Routes, Route } from 'react-router-dom';
 import NavigationBar from './Component/NavigationBar'
 import Home from './Pages/Home';
 import Buy from './Pages/Buy'
-import Development from './Pages/Development'
-import Portfoilo from './Pages/Portfoilo'
+import SignIn from './Pages/SignIn'
+import SignUp from './Pages/SignUp'
 import Upgrade from './Pages/Upgrade'
 import Work from './Pages/Work'
 import Doc from './Pages/Doc'
@@ -17,8 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Buy" element={<Buy />} />
-        <Route path="/Development" element={<Development />} />
-        <Route path="/Portfoilo" element={<Portfoilo />} />
+        <Route path="/SignIn" element={<SignIn />} />
+        <Route path="/SignUp" element={<SignUp />} />
         <Route path="/Upgrade" element={<Upgrade />} />
         <Route path="/Contact" element={<Work />} />
         <Route path="/Doc" element={<Doc />} />

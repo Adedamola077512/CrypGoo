@@ -65,6 +65,11 @@
     padding: 8px 0;
     font-weight: 500;
   }
+  #signup2:hover {
+    background-color: transparent;
+    color: #99e39e;
+    border: 1px solid #99e39e;
+  }
   #btn:hover {
     border: 1px solid #99e39e;
     border-radius: 5px;

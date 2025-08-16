@@ -41,7 +41,7 @@ const SignUp = () => {
         <p className="signin">
           Already have an account? 
             <Link
-                to="/Development"
+                to="/SignIn"
                 className="text"
               >
                 Sign Up

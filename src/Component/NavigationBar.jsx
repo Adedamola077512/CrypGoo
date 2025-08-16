@@ -72,7 +72,7 @@ function NavigationBar() {
           <div className="btn-grid">
             <button className="signup mx-2" onClick={() => setExpanded(false)}>
               <Link
-                to="/Development"
+                to="/SignIn"
                 className="textlink"
                 onClick={() => setExpanded(false)}
               >
@@ -85,7 +85,7 @@ function NavigationBar() {
               onClick={() => setExpanded(false)}
             >
               <Link
-                to="/Portfoilo"
+                to="/SignUp"
                 className="text"
                 onClick={() => setExpanded(false)}
               >
