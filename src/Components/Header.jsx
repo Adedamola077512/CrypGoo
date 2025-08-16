@@ -3,8 +3,8 @@ import "./Header.css";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
-import iconbag from "../Assets/bag.svg"; // Assuming you have an icon in this path
-import headerImage from "../Assets/banner-image.png"; // Assuming you have an image in this path
+import iconbag from "../assets/bag.svg"; // Assuming you have an icon in this path
+import headerImage from "../assets/banner-image.png"; // Assuming you have an image in this path
 
 const Header = () => {
     useEffect(() => {

@@ -1,10 +1,10 @@
 import React from "react";
 import "./Timeline.css";
-import myImage from "../Assets/timeline.png";
-import plainning from "../Assets/icon-planning.svg";
-import refinement from "../Assets/icon-refinement.svg";
-import prototype from "../Assets/icon-prototype.svg";
-import support from "../Assets/icon-support.svg";
+import myImage from "../assets/timeline.png";
+import plainning from "../assets/icon-planning.svg";
+import refinement from "../assets/icon-refinement.svg";
+import prototype from "../assets/icon-prototype.svg";
+import support from "../assets/icon-support.svg";
 const Timeline = () => {
   return (
     <div className="timeline py-5" id="Development">

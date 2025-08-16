@@ -1,5 +1,5 @@
 import React from 'react'
-import SignUp from '../Component/SignUp'
+import SignUp from '../Components/SignUp'
 const Portfoilo = () => {
   return (
     <div>

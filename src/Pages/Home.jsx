@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from '../Component/Header'
-import CryptoSwiper from '../Component/CryptoSwiper'
-import Blockchain from '../Component/Blockchain'
-import Timeline from '../Component/Timeline'
-import Platform from '../Component/Platform'
-import Portfolio from '../Component/Portfolio'
-import Upgrade from '../Component/Upgrade'
-import Cryogo from '../Component/Cryogo'
-import Footer from '../Component/Footer'
+import Header from '../Components/Header'
+import CryptoSwiper from '../Components/CryptoSwiper'
+import Blockchain from '../Components/Blockchain'
+import Timeline from '../Components/Timeline'
+import Platform from '../Components/Platform'
+import Portfolio from '../Components/Portfolio'
+import Upgrade from '../Components/Upgrade'
+import Cryogo from '../Components/Cryogo'
+import Footer from '../Components/Footer'
 const Home = () => {
   return (
     <div>
